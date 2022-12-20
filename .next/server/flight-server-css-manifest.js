@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"C:\\Users\\User\\Desktop\\My Projects\\metaverse-portal\\app\\page":["C:\\Users\\User\\Desktop\\My Projects\\metaverse-portal\\styles\\globals.css"]},"C:\\Users\\User\\Desktop\\My Projects\\metaverse-portal\\app\\layout.js":["C:\\Users\\User\\Desktop\\My Projects\\metaverse-portal\\styles\\globals.css"]}
