@@ -9,7 +9,6 @@ export const TypingText = (props) => (
   variants={textContainer}
   className={`${props.textStyles} font-normal text-[18px] text-secondary-white`}
   >
-    {console.log('text',props)}
     {Array.from(props.title).map((letter,index) =>(
       <motion.span 
       variants={textVariant2}
@@ -20,6 +19,11 @@ export const TypingText = (props) => (
   </motion.p>
 );
 
-export const TitleText = () => (
-  <h2>Title Text</h2>
+export const TitleText = (props) => (
+  <motion.h2
+    variants={textVariant2}
+    initial="hidden"
+    whileInView="show"
+    className={`${props.textStyles} mt-[8px] font-bold text-white md:text-[60px] text-[40px]`}
+  >{props.title}</motion.h2>
 );
