@@ -27,7 +27,8 @@ const Explore = () => {
                 key={worlds.id}
                 index={index}
                 active={active}
-                handleClick={setActive} />
+                handleClick={setActive}
+                {...worlds} />
             ))}
           </div>
       </motion.div>
